@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sadiya-Developer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">"
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: "Poppins", sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 62);
+
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(132, 132, 220);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(128, 128, 225);
+            height: 1.2px;
+            margin: 10px 24px;
+
+        }
+
+        .left {
+            font-size: 1.5rem;
+
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 60px 0;
+            color: white;
+
+
+
+        }
+
+        .firstsection>div {
+            width: 30%;
+            /* background-color: red; */
+            text-decoration: none;
+        }
+
+        .leftsection {
+            /* background-color: red; */
+            font-size: 2rem;
+            /* margin:30px 0; */
+            text-decoration: none;
+
+        }
+
+        .leftsection .buttons {
+            padding: 20px;
+        }
+
+        .leftsection .btn {
+            /* background-color: red; */
+            /* font-size:2rem; */
+            /* margin:30px 0; */
+
+            text-decoration: none;
+            padding: 10px;
+            background-color: #0a0b36;
+            color: white;
+            border-radius: 6px;
+            border: 2px solid white;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+
+        .rightsection img {
+            width: 80%;
+
+        }
+
+        .purple {
+            color: rgb(142, 75, 204);
+        }
+
+        #element {
+            color: rgb(142, 75, 204);
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80hv;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+        }
+
+        .text-gray {
+            color: grey;
+        }
+
+        .secondsection .box {
+            background: white;
+            width: 77vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 47px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+            height: 40px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 160px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            width: 150px;
+            color: grey;
+            font-size: 9px;
+        }
+
+        footer {
+            background-color: rgb(18, 18, 62);
+            height: 0px;
+        }
+
+        .footer {
+            padding-left: 20px;
+            display: flex;
+            margin: 323px 322px;
+            justify-content: space-evenly;
+            margin-bottom: 20px;
+            font-size: 12px;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-first {
+            padding-right: 20px;
+            font-size: 12px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: grey;
+            margin-top: 5px;
+            padding: 120px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sadiya's portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="aboutme.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="certificates.html">Certificates</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi, My name is <span class="purple">Sadiya</span>
+                <div>and I am a passionate</div>
+
+                <span id="element"></span>
+                <div class="buttons">
+                    <!-- <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button> -->
+                    <a href="https://leetcode.com/u/sadiya_08/" class="btn" download>Visit Leetcode</a>
+                    <a href="https://github.com/sksadiya123" class="btn" target="_blank">Visit Github</a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="img_dev.png" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What I have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="python.png" alt="">
+                    <div class="vertical-title">
+                        Python Developer (2022-2023)
+                    </div>
+
+                    <div class="vertical-desc">
+                        Built applications for web, data analysis, machine learning, and automation using Python.
+                        Developed scalable and maintainable systems with Django, Flask, and various libraries.
+                        Created automated solutions for repetitive tasks, enhancing operational efficiency.
+                        Contributed to AI/ML projects, enabling data-driven decision-making.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="java.png" alt="">
+                    <div class="vertical-title">
+                        Java Developer  (2023-2024)
+                    </div>
+
+                    <div class="vertical-desc">
+                        Developed large-scale enterprise applications using Java and frameworks like Spring and
+                        Hibernate.
+                        Created backend solutions with high performance, scalability, and security.
+                        Built web applications, expanding web ecosystem solutions.
+                        Improved application architecture, ensuring robustness and long-term maintainability.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="frontend.png" alt="">
+                    <div class="vertical-title">
+                        Frontend Developer (2023-2025)
+                    </div>
+
+                    <div class="vertical-desc">
+                        Created dynamic web applications with vanilla JavaScript and frameworks like React.
+                        Implemented client-side validations, API integrations, and interactive UI elements.
+                        Proficient in ES6+ features, including promises, async/await, and modern JavaScript patterns.
+                    </div>
+                </div>
+                
+                <div class="vertical">
+                    <img class="image-top" src="backend.png" alt="">
+                    <div class="vertical-title">
+                        Backend Developer  (2025-2026)
+                    </div>
+
+
+                    <div class="vertical-desc">
+                        Developed and maintained server-side logic, APIs, and database management systems.
+                        Utilized programming languages such as Java, Python, Node.js, and PHP to build scalable systems.
+                        Focused on improving performance, handling large-scale data, and ensuring system security.
+                        Worked on integrating front-end and back-end systems to ensure smooth, efficient operation of
+                        web applications.
+                    </div>
+                </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <!--<div class="footer-first">
+                <h3>Sadiya's developer portfolio</h3>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Contact</li>
+                    <li>Services</li>
+                </ul>
+            </div> -->
+        </div>
+        <div class="footer-rights">
+            www.sadiyasportfolio.com | All rights reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Java Developer', 'AWS Cloud Engineer'],
+            typeSpeed: 50,
+        });
+    </script> -->
+   <script src="script.js"></script>
+
+</body>
+
+</html>

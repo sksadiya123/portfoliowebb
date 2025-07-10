@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skills Page</title>
+  <style>
+    /* General Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f9f9f9;
+      color: #583bae;
+    }
+
+    header {
+      background-color: #0f1548;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #451971;
+      margin-bottom: 20px;
+    }
+
+    .skills-section {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .skill-card {
+      flex: 1 1 calc(33.333% - 20px);
+      background: #f0f0f0;
+      padding: 20px;
+      border-radius: 8px;
+      text-align: center;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .skill-card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .skill-card h3 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #934edd;
+    }
+
+    .skill-card p {
+      font-size: 1rem;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding: 10px 0;
+      background-color: #333;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <h1>My Skills</h1>
+    <p>Web Development (Frontend) & Cloud Computing</p>
+  </header>
+
+  <!-- Skills Section -->
+  <div class="container">
+    <h2>Skills Overview</h2>
+    <div class="skills-section">
+      <!-- Skill Card: C -->
+      <div class="skill-card">
+        <h3>C</h3>
+        <p>
+          Proficient in C programming for system-level applications, focusing on efficient algorithms 
+          and low-level memory management.
+        </p>
+      </div>
+
+      <!-- Skill Card: Python -->
+      <div class="skill-card">
+        <h3>Python</h3>
+        <p>
+          Skilled in Python for web development, data analysis, and automation, with a focus on clean, 
+          maintainable code and powerful libraries like Pandas and Django.
+        </p>
+      </div>
+
+      <!-- Skill Card: Java -->
+      <div class="skill-card">
+        <h3>Java</h3>
+        <p>
+          Strong in Java programming for building scalable backend solutions, with experience in frameworks like Spring.
+        </p>
+      </div>
+
+      <!-- Skill Card: Frontend Development -->
+      <div class="skill-card">
+        <h3>Frontend Development</h3>
+        <p>
+          Expertise in HTML, CSS, and JavaScript, including modern frameworks like React and Vue.js for building dynamic UIs.
+        </p>
+      </div>
+
+      <!-- Skill Card: Backend Development -->
+      <div class="skill-card">
+        <h3>Backend Development</h3>
+        <p>
+          Experienced in backend technologies such as Node.js, Java, and Python, focusing on database integration, APIs, and server-side logic.
+        </p>
+      </div>
+
+      <!-- Skill Card: Cloud Computing -->
+      <div class="skill-card">
+        <h3>Cloud Computing</h3>
+        <p>
+          Hands-on experience with AWS, Google Cloud, and Azure, deploying and managing cloud infrastructure and services.
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2025 My Portfolio | All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
